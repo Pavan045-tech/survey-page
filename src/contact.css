@@ -1,0 +1,56 @@
+.main3{
+    background-color: rgba(15, 14, 14,0.5);
+    width: fit-content;
+    height: fit-content;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+.heading3{
+    color: rgb(26, 249, 44);
+    border-bottom: 2px red solid;
+}
+.mail{
+    margin-top: 2rem;
+}
+.a{
+    color: rgb(255, 250, 250);
+    text-transform: lowercase;
+}
+.previous{
+    margin-top: 2rem;
+    color: rgb(1, 0, 0);
+    background-color: rgb(243, 53, 53);
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+h3{
+    color: aliceblue;
+}
+span{
+    color: rgb(255, 230, 1);
+}
+.office{
+    color: rgb(255, 255, 0);
+}
+
+@media(max-width:420px){
+    .main3{
+        margin: auto;
+        width: fit-content;
+        height: 60rem;
+        padding:2rem;
+    }
+}
+h2{
+    color: aliceblue;
+}

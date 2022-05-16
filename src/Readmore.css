@@ -1,0 +1,82 @@
+.paraa3{
+    width: 39rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 8rem;
+    color: rgb(137, 254, 250);
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h111{
+    text-align: center;
+    margin-top: 4rem;
+    color: rgb(255, 123, 0);
+    width: 35rem;
+    margin: auto;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px rgb(43, 255, 0) solid;
+}
+.maiin4{
+    width: 40rem;
+    height: fit-content;
+    background-color: rgba(23, 22, 22, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 5rem;
+}
+.link2{
+    margin-top: 5rem;
+    color: rgb(1, 0, 0);
+    background-color: rgb(243, 53, 53);
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+@media (max-width:420px){
+    .maiin4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+        width: 40rem;
+        height: 85rem;
+        background-color: rgba(15, 15, 15,0.7);
+        margin: auto;
+        text-align: center;
+        padding: 7rem;
+    }
+    .h111{
+        text-align: center;
+        background-color: black;
+        margin-top: 3rem;
+        color: rgb(255, 102, 0);
+        width: 40rem;
+        margin: auto;
+        font-weight: bolder;
+        font-size: xx-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }   
+    .paraa3{
+        margin-top: 1rem;
+        font-size: xx-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .about{
+        margin-bottom: 2rem;
+    }
+}
+.about{
+    margin-bottom: 5rem;
+    background-color: aliceblue;
+    width: 100%;
+    text-align: center;
+}
